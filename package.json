@@ -1,0 +1,31 @@
+{
+  "name": "nc-format",
+  "version": "0.1.0",
+  "description": "用于格式化中英文以及中文数字之间的空格，包括一些特殊的标点符号。",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --bail"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "testURL": "https://jest.test",
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "moduleDirectories": [
+      "node_modules"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "tuber",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "25.1.0"
+  },
+  "dependencies": {
+    "pangu": "4.0.7"
+  }
+}
